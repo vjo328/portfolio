@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/vjo2803" target="https://www.linkedin.com/in/vjo2803">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <h1>Venu Madhav Joparthi (25)</h2>
+            <h2>QA Automation Engineer</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              Results-driven Test Engineer with over 2 years of experience in manual and automation 
+              testing. Proficient in SDLC, STLC, and test management tools like JIRA and ALM. 
+              Skilled in developing CI/CD pipelines and testing SOAP and RESTful web services 
+              using Selenium WebDriver, Cucumber BDD, and REST Assured. AWS Certified Developer 
+              Associate and Cloud Practitioner, adept in various programming languages and 
+              cloud technologies. Strong analytical skills and proven ability to collaborate 
+              with stakeholders. Master’s in information technology from the University of Cincinnati 
+              and Bachelor’s in Electronics and Communication Engineering. Seeking a challenging role 
+              to contribute innovative solutions and enthusiasm for technology.
+            </p>
+            
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+              <div class="">
+                <h4>Test Engineer at the IBS Software Services Pvt Ltd</h4>
+                <p>May 2020 - November 2022</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>2+ years of experience in the field of Software Testing with emphasis on Manual testing, Automation Testing, 
+                    and Requirements gathering.</li>
+                  <li>Utilized ALM Selenium WebDriver to conduct automated tests for SOAP and Restful Web services, resulting in a 70%
+                      increase in test coverage while maintaining robustness across diverse web service interfaces.</li>
+                  <li>Developed CI/CD pipelines to automate the testing process, achieving a reduction of manual intervention by 60% and
+ensuring faster software releases with improved reliability.</li>
+                  <li>llaborated with cross-functional teams to identify and document test requirements, ensuring adherence to industry
+standards while conducting both manual and automated tests.</li>
+                  <li>Strong Knowledge of Software Development Life Cycle (SDLC) as well as Software Test Life Cycle (STLC) and the role
+of QA.</li>
+                  <li>Proficient in testing SOAP and Restful Web services using SOAP UI, Strong experience in ALM Selenium web driver, UI
+tools, API RESTFUL/JSON web services using automated tools.</li>
+                  <li>Analyzed test results and prepared system-level evaluation reports to verify and validate system performance.</li>
+                  <li>Reviewed user stories, business requirements, and functional requirements to identify gaps and developed test scripts
+based on regulatory and business needs.</li>
+                  <li>Maintained clear and concise documentation of test cases, test scripts, and test plans for future reference.
+Engaged with internal and external customers during planning and test phases to answer questions.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY EDUCATION</h3>
+                <h4>University of Cincinnati,Cincinnati</h4>
+                <p>January 2023 - April 2024 </p>
+                <h4>CMR College of Engineering & Technology,Hyderabad,India</h4>
+                <p>August 2016 - April 2020 </p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY SKILLS</h3>
+              <!--SOFT SKILLS-->
+              <h4>Soft skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>I have excelent communication skill and confidence in front of an audience</li>
+                <li>I possess strong analytical and problem-solving abilities, allowing me to efficiently identify and address issues in complex systems.</li>
+                <li>My excellent communication skills facilitate seamless collaboration with cross-functional teams and stakeholders, ensuring that project requirements are clearly understood and met. </li>
+                <li>I am highly adaptable and open to learning new technologies, which enables me to stay current with industry trends and contribute innovative solutions. </li>
+                <li>My attention to detail and commitment to quality ensure thorough and precise testing processes, leading to reliable and high-performing software.</li>
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I  possess a diverse and comprehensive skill set in programming, frameworks, testing, cloud technologies, databases, and other essential tools. Proficient in JavaScript, TypeScript, HTML, CSS, Bootstrap, Java, and C, you have a strong foundation in both front-end and back-end development. You are well-versed in frameworks such as ReactJS, JDBC, J2EE, Spring, Hibernate, Microservices, Selenium, Cucumber, and TestNG, enabling you to build and maintain robust applications. Your testing expertise includes SOAP, REST, Rest APIs Functional Testing, JSON, XML, ALM, Postman, Agile, Scrum, Regression Testing, Load Testing, JMeter, JUnit, and JIRA Workflow, ensuring high-quality software delivery. With a solid understanding of cloud technologies like AWS, EC2, S3, IAM, RDS, Route 53, AWS Lambda, Amazon DynamoDB, and Terraform, you can efficiently manage and deploy cloud-based solutions. Your database skills encompass SQL, MySQL, SQL Server, and PostgreSQL, allowing you to handle data storage and retrieval effectively. Additionally, you are adept in using tools such as GitHub, Jenkins, JQuery, MS Office Suite, and Google Suite, which facilitate smooth project management and collaboration.</li>
+                </ul>
+            </div>
+
+            
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Venu Madhav Joparthi</p>
+              <p>Adress: 707 Martin Luther King Dr W APT 305,Cincinnati,OH,45220</p>
+              <p>Phone number: +1 (513)399-2050</p>
+              <p>E-mail: vjoparthi@email.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2024 - Venu Joparthi</p>
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
